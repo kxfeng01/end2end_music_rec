@@ -1,0 +1,273 @@
+2025-02-05 16:49:00,504 - INFO - 🚀 Starting Drift Detection & Incremental Training Pipeline...
+2025-02-05 16:49:04,633 - INFO - ⚠️ No new data found for incremental training.
+2025-02-05 16:49:04,633 - INFO - ⏭ No new data available. Skipping retraining.
+2025-02-05 16:49:04,636 - INFO - Closing down clientserver connection
+2025-02-05 17:20:08,857 - INFO - 🚀 Starting Full MLOps Pipeline...
+2025-02-05 17:20:08,857 - INFO - 🎧 Starting Kafka Consumer to ingest new data...
+2025-02-05 17:20:08,876 - INFO - Closing down clientserver connection
+2025-02-05 17:20:09,240 - INFO - Error while sending or receiving.
+Traceback (most recent call last):
+  File "/Users/Kexin/Desktop/MSU/Fifthyear/MSD/myenv/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+2025-02-05 17:20:09,242 - INFO - Closing down clientserver connection
+2025-02-05 17:20:09,242 - INFO - Exception while sending command.
+Traceback (most recent call last):
+  File "/Users/Kexin/Desktop/MSU/Fifthyear/MSD/myenv/lib/python3.9/site-packages/py4j/clientserver.py", line 503, in send_command
+    self.socket.sendall(command.encode("utf-8"))
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Kexin/Desktop/MSU/Fifthyear/MSD/myenv/lib/python3.9/site-packages/py4j/java_gateway.py", line 1038, in send_command
+    response = connection.send_command(command)
+  File "/Users/Kexin/Desktop/MSU/Fifthyear/MSD/myenv/lib/python3.9/site-packages/py4j/clientserver.py", line 506, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while sending
+2025-02-05 17:20:09,245 - INFO - Closing down clientserver connection
+2025-02-05 17:20:38,894 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:21:08,903 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:21:38,911 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:22:08,921 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:22:38,940 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:23:08,955 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:23:38,960 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:24:08,966 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:24:38,970 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:25:08,976 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:25:38,985 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:26:08,988 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:26:38,994 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:27:09,001 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:27:39,011 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:28:09,018 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:28:39,034 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:29:09,041 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:29:39,049 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:30:09,057 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:30:39,073 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:31:09,082 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:31:39,092 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:32:09,106 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:32:39,117 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:33:09,131 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:33:39,145 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:34:09,149 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:34:39,154 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:35:09,166 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:35:39,179 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:36:09,182 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:36:39,191 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:37:09,198 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:37:39,202 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:38:09,213 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:38:39,221 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:39:09,231 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:39:39,245 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:40:09,253 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:40:39,267 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:41:09,279 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:41:39,292 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:42:09,278 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:42:39,273 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:43:09,284 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:43:39,295 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:44:09,309 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:44:39,323 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:45:09,336 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:45:39,349 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:46:09,362 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:46:39,377 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:47:09,386 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:47:39,397 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:48:09,405 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:48:39,415 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:49:09,427 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:49:39,440 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:50:09,449 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:50:39,463 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:51:09,475 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:51:39,488 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:52:09,498 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:52:39,505 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:53:09,513 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:53:39,526 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:54:09,534 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:54:39,546 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:55:09,556 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:55:39,565 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:56:09,571 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:56:39,579 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:57:09,589 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:57:39,603 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:58:09,612 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:58:39,624 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:59:09,634 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 17:59:39,644 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:00:09,661 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:00:39,666 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:01:09,677 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:01:39,689 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:02:09,702 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:02:39,709 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:03:09,720 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:03:39,734 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:04:09,750 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:04:39,755 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:05:09,762 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:05:39,768 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:06:09,773 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:06:39,833 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:07:09,845 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:07:39,853 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:08:09,865 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:08:39,869 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:09:09,877 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:09:39,886 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:10:09,897 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:10:39,905 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:11:09,914 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:11:39,922 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:12:09,931 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:12:39,938 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:13:09,949 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:13:40,008 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:14:10,026 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:14:40,040 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:15:10,053 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:15:40,067 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:16:10,081 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:16:40,095 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:17:10,106 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:17:40,116 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:18:10,126 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:18:40,132 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:19:10,146 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:19:40,159 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:20:10,169 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:20:40,176 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:21:10,185 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:21:40,192 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:22:10,196 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:22:40,203 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:23:10,211 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:23:40,222 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:24:10,230 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:24:40,237 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:25:10,246 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:25:40,255 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:26:10,261 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:26:40,269 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:27:10,279 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:27:40,289 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:28:10,298 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:28:40,311 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:29:10,320 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:29:40,331 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:30:10,342 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:30:40,350 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:31:10,356 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:31:40,365 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:32:10,372 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:32:40,375 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:33:10,390 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:33:40,407 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:34:10,421 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:34:40,433 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:35:10,442 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:35:40,447 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:36:10,454 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:36:40,467 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:37:10,484 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:37:40,491 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:38:10,508 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:38:40,518 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:39:10,528 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:39:40,539 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:40:10,548 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:40:40,558 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:41:10,566 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:41:40,575 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:42:10,581 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:42:40,589 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:43:10,598 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:43:40,606 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:44:10,616 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:44:40,624 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:45:10,634 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:45:40,641 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:46:10,652 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:46:40,660 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:47:10,674 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:47:40,679 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:48:10,690 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:48:40,695 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:49:10,706 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:49:40,711 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:50:10,716 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:50:40,726 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:51:10,737 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:51:40,743 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:52:10,752 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:52:40,762 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:53:10,770 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:53:40,778 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:54:10,787 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:54:40,796 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:55:10,804 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:55:40,812 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:56:10,820 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:56:40,825 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:57:10,835 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:57:40,841 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:58:10,856 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:58:40,865 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:59:10,874 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 18:59:40,884 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:00:10,897 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:00:40,910 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:01:10,923 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:01:40,875 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:02:10,887 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:02:40,904 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:03:10,917 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:03:40,923 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:04:10,932 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:04:40,941 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:05:10,949 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:05:40,957 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:06:10,966 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:06:40,974 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:07:10,982 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:07:40,989 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:08:10,998 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:08:41,006 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:09:11,016 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:09:41,023 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:10:11,035 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:10:41,046 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:11:11,054 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:11:41,060 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:12:11,067 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:12:41,078 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:13:11,081 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:13:41,092 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:14:11,097 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:14:41,106 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:15:11,114 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:15:41,120 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:16:11,125 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:16:41,134 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:17:11,140 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:17:41,148 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:18:11,158 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:18:41,164 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:19:11,168 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:19:41,178 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:20:11,187 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:20:41,198 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:21:11,247 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:21:41,262 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:22:11,278 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
+2025-02-05 19:22:41,286 - INFO - ⏭ No new data found. Skipping drift detection & retraining.
